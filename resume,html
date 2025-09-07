@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume</title>
+</head>
+<body background="background.jpg">
+<p align="center"><b><u>RESUME</u></b></p>
+<hr>
+
+    <p><b>NAME:</b></p>
+    <p><b>PHONE NUMBER:</b></p>
+    <p><b>EMAIL ADDRESS:</b></p>
+    <hr>
+
+    <p align="center"><b>EDUCATION INFORMATION</b></p>
+
+    <table border="1" align="center">
+        <tr>
+            <th>SL.NO</th>
+            <th>EDUCATION</th>
+            <th>YEAR OF COMPLETION</th>
+            <th>PERCENTAGE</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>SSLC</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1<sup>st</sup> PU</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2<sup>nd</sup> PU</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+
+    <p align="center"><b>Graduate</b></p>
+
+    <table border="1" align="center">
+        <tr>
+            <th>SL.NO</th>
+            <th>SEMESTER</th>
+            <th>YEAR OF COMPLETION</th>
+            <th>SGPA</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1<sup>st</sup> SEMESTER</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2<sup>nd</sup> SEMESTER</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3<sup>rd</sup> SEMESTER</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right">CGPA:</td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+
+    <p align="center"><b>PERSONAL INFORMATION</b></p>
+
+    <ul>
+        <li>Father Name :</li>
+        <li>Mother Name:</li>
+        <li>Address :</li>
+        <li>Blood Group :</li>
+        <li>Hobbies :
+            <ul>
+                <li>○ 1</li>
+                <li>○ 2</li>
+                <li>○ 3</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+
+    <p align="center"><b>DECLARATION</b></p>
+
+    <pre>
+"I hereby declare that all the information provided in this resume is true and accurate to the best of my knowledge".
+
+Place: 
+Date:
+    </pre>
+
+</body>
+</html>
