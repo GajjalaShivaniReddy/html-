@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body background="college-bg.jpg" align="center">
+
+    <!-- Heading -->
+    <marquee behavior="scroll" direction="left">
+        <h2><b><i>WELCOME TO COLLEGE REGISTRATION</i></b></h2>
+    </marquee>
+
+    <hr>
+
+    <!-- Registration Form -->
+    <h1><u>Student Registration Form</u></h1>
+    <form action="welcome.html" method="get" target="_blank">
+
+        <!-- Student Name -->
+        <p>
+            <b>Student Name:</b>
+            <input type="text" name="student_name" placeholder="Enter your name" required autofocus maxlength="30">
+        </p>
+
+        <!-- Roll Number -->
+        <p>
+            <b>Roll Number:</b>
+            <input type="text" name="roll" placeholder="Enter roll no" required maxlength="10">
+        </p>
+
+        <!-- Email -->
+        <p>
+            <b>Email ID:</b>
+            <input type="email" name="email" placeholder="Enter email" required>
+        </p>
+
+        <!-- Course Selection -->
+        <p>
+            <b>Select Course:</b>
+            <select name="course" required>
+                <option value="">--Choose--</option>
+                <option>B.Tech CSE</option>
+                <option>B.Tech ECE</option>
+                <option>B.Tech Mechanical</option>
+                <option>B.Com</option>
+                <option>BBA</option>
+            </select>
+        </p>
+
+        <!-- Gender -->
+        <p>
+            <b>Gender:</b>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </p>
+
+        <!-- Hobbies -->
+        <p>
+            <b>Hobbies:</b><br>
+            <input type="checkbox" name="hobby" value="Sports"> Sports
+            <input type="checkbox" name="hobby" value="Music"> Music
+            <input type="checkbox" name="hobby" value="Reading"> Reading
+            <input type="checkbox" name="hobby" value="Travel"> Travel
+        </p>
+
+        <!-- Address -->
+        <p>
+            <b>Address:</b><br>
+            <textarea name="address" rows="4" cols="40" placeholder="Enter address here..." required></textarea>
+        </p>
+
+        <!-- Submit -->
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+
+    </form>
+
+    <hr>
+
+    <!-- Contact Info -->
+    <address>
+        <a href="https://www.google.com/maps" target="_blank">
+            College Campus, City Center, Wonderland
+        </a>
+    </address>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body align="center" background="welcome-bg.jpg">
+
+    <h1><b><i>Welcome to Our College!</i></b></h1>
+    <hr>
+    <p>
+        Thank you for registering. We are excited to have you join our courses.  
+        Explore, Learn, and Grow with us!
+    </p>
+
+</body>
+</html>
+
+
